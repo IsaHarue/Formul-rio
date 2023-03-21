@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+
+            <legend>Cadastro do Produto</legend>
+
+            <label for="iproduto">Produto:</label>
+            <br>
+            <input type="text" name="tproduto" id="iproduto" placeholder="digite o nome do trabalho">
+
+            <br><br>
+
+            <label for="idata">Data do Cadastro:</label>
+            <br>
+            <input type="date" name="ddata" id="idata">
+
+            <br><br>
+
+            <label for="icateg">Categoria:</label>
+            <br>
+            <select name="speso" id="ipeso">
+                <option value="L">Livros</option>
+                <option value="">Caderno</option>
+            </select>
+
+            <br><br>
+
+            <label for="ipeso">Peso(Kg):</label>
+            <br>
+
+            <input type="number" name="npeso" id="ipeso">
+
+            <br><br>
+
+            <label for="isitua">Situação:</label>
+            <br>
+            <input type="radio" name="rsitua" id="inovo" value="N">
+            <label for="inovo">Novo</label>
+            <br>
+            <input type="radio" name="rsitua" id="iusado" value="U">
+            <label for="iusado">Usado</label>
+
+            <br><br>
+
+            <label for="idesc">Descrição:</label>
+            <br>
+            <textarea name="txtdesc" id="idesc" cols="30" rows="5"></textarea>
+
+            <br><br>
+
+            <label for="iavalia">Avaliação:(0-10):</label>
+            <br>
+            <input type="range" name="ravalia" id="iavalia">
+
+            <br><br>
+
+            <input type="submit" value="Enviar">
+
+            <input type="reset" value="Limpar">
+            
+        </fieldset>
+    </form>
+</body>
+</html>
